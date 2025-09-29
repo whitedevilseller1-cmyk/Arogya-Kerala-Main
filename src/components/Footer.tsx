@@ -379,7 +379,7 @@ const Footer = () => {
           {/* Organization Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-4">
-              <img src={keralaLogo} alt="Kerala Government" className="h-12 w-12 object-contain" />
+              <img src={keralaLogo} alt="Kerala Government" className="h-16 w-16 object-contain" />
               <img src={healthMinistryLogo} alt="Health Ministry" className="h-12 w-12 object-contain" />
             </div>
             <h3 className="font-bold text-lg mb-2">{translations.departmentName[language]}</h3>
